@@ -19,6 +19,7 @@ Grab your precompiled binary at [release](https://github.com/GnXOrg/PySentenceBa
 + Linux/MacOS (maybe):
 
 1. Download the Linux file.
+
 2. chmod +x PySentenceBackwarder_Linux
 
 3. ./PySentenceBackwarder_Linux

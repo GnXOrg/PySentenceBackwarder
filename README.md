@@ -41,10 +41,6 @@ Grab your precompiled binary at [release](https://github.com/GnXOrg/PySentenceBa
 
 + Not available at the moment, sorry.
 
-#### Why?
-
-+ We're learning Python so bruh
-
 #### License
 
 See LICENSE.md

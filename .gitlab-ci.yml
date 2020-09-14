@@ -11,14 +11,12 @@ build:windows:
     image: "python:3.8.5" 
     #commands to run in the Docker container before starting each job.
     before_script:
-      - echo ${time}
-      - echo "started by ${GITLAB_USER_NAME}"
       - choco install python --version=3.8.5 -y -f
       - C:\\Python38\\python.exe --version
       - C:\\Python38\\python.exe -m pip install -r requirements.txt
     # different stages in the pipeline
     script:
-      - C:\\Python38\\python.exe -m pyinstaller main.spec
+      - C:\\Python38\\Scripts\\pyinstaller.exe main.spec
     artifacts:
         expire_in: '12 weeks'
         paths:

@@ -11,6 +11,9 @@ build:windows:
     image: "python:3.8.5" 
     #commands to run in the Docker container before starting each job.
     before_script:
+      - echo ${time}
+      - echo "started by ${GITLAB_USER_NAME}"
+      - choco install python --version=3.8.5 -y -f
       - python --version
       - pip install -r requirements.txt
     # different stages in the pipeline

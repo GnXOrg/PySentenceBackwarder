@@ -34,11 +34,11 @@ build:linux:
     image: "python:3.8.5" 
     #commands to run in the Docker container before starting each job.
     before_script:
-      - python --version
-      - pip install -r requirements.txt
+      - C:\\Python38\\python.exe --version
+      - C:\\Python38\\python.exe -m pip install -r requirements.txt
     # different stages in the pipeline
     script:
-      - pyinstaller main.spec
+      - C:\\Python38\\python.exe -m pyinstaller main.spec
     artifacts:
         expire_in: '12 weeks'
         paths:

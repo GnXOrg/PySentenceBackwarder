@@ -7,7 +7,6 @@ SentenceBackwarder but made in Python
 + SentenceBackwarder but this is a remake with QtQuick UI, for old version is in master branch.
 
 ## How to use
-+ **If there aren't any releases (or latest releases) for your Platform you can try to build it in #BUILDING**
 + Grab a release in [releases](https://github.com/GnXOrg/PySentenceBackwarder/releases) or an CI build in [GitLab CI](https://gitlab.com/teppyboy/PySentenceBackwarder/-/pipelines) correspond to your OS
   + Windows:
     1. Extract the archive into a directory, open main.exe (for CI build is in /dist/main/main.exe)
